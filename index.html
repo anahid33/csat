@@ -7,7 +7,8 @@
 
     body {
         font-family: 'Nunito Sans';font-size: 16px; font-weight: 500;
-        line-height: 1.7;
+        line-height: 1.5;
+        color: #1D222A;
     }
 
     .wrapper {
@@ -91,7 +92,7 @@
 
     a {
         font-family: 'Nunito Sans';
-        font-weight: 700;
+        font-weight: 500;
         color: #3B99FD;
         font-size: 16px;
     }
@@ -108,6 +109,24 @@
         margin-top: 15px;
     }
     
+    .ticketno {
+        font-family: 'Nunito Sans';
+        font-weight: 600; 
+    }
+    
+    .description {
+        font-family: 'Nunito Sans';
+        font-weight: 500; 
+        font-style: italic;
+    }
+    
+    .name {
+        font-family: 'Nunito Sans';
+        font-weight: 700; 
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+    
 </style>
 
 </head>
@@ -115,15 +134,21 @@
     <div class="wrapper">
         <div class="issue-icon"></div>
         
-        Hi Peter, <br>Your issue ticket no / description has been resolved.
-        <br>Thank you for giving us the opportunity to be of service.
+        <div class="name">Hi Peter,</div>
+        <div>Your issue has been resolved. We hope your issue has been resolved to your satisfaction. Please let us know if we be of more assistance.</div>
         
         <h1>How was the service?</h1>
         
         <div class="rating happy"> It was great</div>
         <div class="rating sad"> Not so great</div><br><br>
         
-        Thank you,<br>IT Support
+        <div>
+            Issue number: <span class="ticketno">0092910014</span><br>
+            Issue: <span class="description">account unlock</span><br>
+            <a href="https://compucom.com">See more issue details</a>
+        </div>
+        <br>
+        <div>Thank you,<br>IT Support</div>
         
         <div class="line"></div>
         

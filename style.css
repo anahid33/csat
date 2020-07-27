@@ -1,0 +1,92 @@
+body {
+    background-color: white;
+    font-family: 'Nunito Sans';font-size: 16px;
+    max-width: 420px;
+    line-height: 1.7;
+    margin: auto;   
+}
+
+h1 {
+    font-style: bold;
+    font-size: 17px;
+}
+
+.issue-icon {
+    position: relative;
+    overflow: visible;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    flex-grow: 0;
+    background-image: url("/assets/issue-icon.svg");
+    background-size: 80px;
+    margin: auto;
+    margin-bottom: 30;
+    margin-top: 50;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.rating {
+    width: 150px;
+    height: 26px;
+    border-color: #8D8F93;
+    border-width: .75px;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10 0;
+}
+
+.sad {
+    margin-left: 7px;
+}
+
+.happy::before {
+    display: inline-block;
+    content: "b";
+    color: transparent;
+    background-image: url("/assets/happy.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    width: 26px;
+}
+
+.sad::before {
+    display: inline-block;
+    content: "b";
+    color: transparent;
+    background-image: url("/assets/sad.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    width: 26px;
+}
+
+.line {
+    border-color: #EDEDED;
+    border-width: 1px;
+    border-style: solid;
+    margin: 25px 0px;
+}
+
+.need-help {
+    font-style: bold;
+    font-size: 16px;
+    color: #646971;
+    margin: 0;
+}
+
+a {
+    color: #3B99FD;
+    font-style: bold;
+    font-size: 16px;
+}
+
+a:visited {
+    color: #3B99FD;
+}

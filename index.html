@@ -1,12 +1,21 @@
 <html>
 <head>
 <style>
+html {
+        background-color: #EDEDED;
+}
+ 
 body {
-    background-color: white;
     font-family: 'Nunito Sans';font-size: 16px; font-weight: 500;
-    max-width: 420px;
     line-height: 1.7;
-    margin: auto;   
+}
+    
+.wrapper {
+    padding: 60px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 420px;
 }
 
 h1 {
@@ -21,16 +30,10 @@ h1 {
     background-repeat: no-repeat;
     width: 80px;
     height: 80px;
-    flex-grow: 0;
-    background-image: url("/assets/issue-icon.svg");
+    background-image: url("https://anahid33.github.io/csat/assets/issue-icon.svg");
     background-size: 80px;
     margin: auto;
-    margin-bottom: 30;
-    margin-top: 50;
-}
-
-.flex-container {
-    display: flex;
+    margin-bottom: 30px;
 }
 
 .rating {
@@ -41,7 +44,8 @@ h1 {
     border-style: solid;
     border-radius: 5px;
     text-align: center;
-    padding: 10 0;
+    padding: 10px 0;
+    display: inline-block;
 }
 
 .sad {
@@ -52,7 +56,7 @@ h1 {
     display: inline-block;
     content: "b";
     color: transparent;
-    background-image: url("/assets/happy.svg");
+    background-image: url("https://anahid33.github.io/csat/assets/happy.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
@@ -63,7 +67,7 @@ h1 {
     display: inline-block;
     content: "b";
     color: transparent;
-    background-image: url("/assets/sad.svg");
+    background-image: url("https://anahid33.github.io/csat/assets/sad.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
@@ -89,27 +93,38 @@ a {
     font-family: 'Nunito Sans';
     font-weight: 700;
     color: #3B99FD;
-    font-style: bold;
     font-size: 16px;
 }
 
 a:visited {
     color: #3B99FD;
 }
+    
+.connect {
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+    color: #F04B48;
+    text-align: center;
+    margin-top: 15px;
+}
+    
 </style>
 
 </head>
 <body>
-    <div class="issue-icon"></div>
-    Hi Peter, <br>Your issue has been closed. Thank you for working with us.
-    <h1>How was the service?</h1>
-    <div class="flex-container">
-    <div class="rating happy"> It was great</div>
-    <div class="rating sad"> Not so great</div>
-    </div><br>
-    Thank you,<br>CompuCom Support
-    <div class="line"></div>
-    <div class="need-help">Need Help?</div>
-    If you need any help <a href="https://compucom.com">click here.</a>
+    <div class="wrapper">
+        <div class="issue-icon"></div>
+        Hi Peter, <br>Your issue has been closed. Thank you for working with us.
+        <h1>How was the service?</h1>
+        <div class="flex-container">
+        <div class="rating happy"> It was great</div>
+        <div class="rating sad"> Not so great</div>
+        </div><br>
+        Thank you,<br>CompuCom Support
+        <div class="line"></div>
+        <div class="need-help">Need Help?</div>
+        If you need any help <a href="https://compucom.com">click here.</a>
+    </div>
+    <div class="connect">Connect</div>
 </body>
 </html>

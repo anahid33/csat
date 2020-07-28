@@ -2,7 +2,7 @@
 <head>
 <style>
     html {
-            background-color: #EDEDED;
+        background-color: #EDEDED;
     }
 
     body {
@@ -128,17 +128,80 @@
         font-size: 20px;
         margin-bottom: 8px;
     }
-    
-    .chat::before {
-        position: relative;
-        overflow: visible;
-        background-repeat: no-repeat;
-        width: 13px;
-        height: 13px;
+    .chat-icon {
+        width: 60px;
+        height: 60px;
+        border-color: #8D8F93;
+        border-width: .75px;
+        border-style: solid;
+        border-radius: 50px;
+        text-align: center;
+        display: inline-block;
+        content: "c";
+        color: transparent;
         background-image: url("https://anahid33.github.io/csat/assets/chat.svg");
-        background-size: 13px;
-        margin: auto;
-        margin-bottom: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 20px;
+    }
+    .callin-icon {
+        width: 60px;
+        height: 60px;
+        border-color: #8D8F93;
+        border-width: .75px;
+        border-style: solid;
+        border-radius: 50px;
+        text-align: center;
+        display: inline-block;
+        content: "c";
+        color: transparent;
+        background-image: url("https://anahid33.github.io/csat/assets/callin.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 19px;
+
+    }
+    .callout-icon {
+        width: 60px;
+        height: 60px;
+        border-color: #8D8F93;
+        border-width: .75px;
+        border-style: solid;
+        border-radius: 50px;
+        text-align: center;
+        display: inline-block;
+        content: "c";
+        color: transparent;
+        background-image: url("https://anahid33.github.io/csat/assets/callout.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 19px;
+    }
+    .chat {
+        text-align: center;
+        margin-top: 7px;
+    }
+    .callin {
+        text-align: center;
+        margin-top: 7px;
+    }
+    .callout {
+        text-align: center;
+        margin-top: 7px;
+    }
+    .inline {
+        display: inline-block;
+        margin: 0 30px;
+    }
+    .center-it {
+        margin: 0 20px;
+    }
+    .help {
+        font-family: 'Nunito Sans';
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px;
     }
     
 </style>
@@ -165,7 +228,21 @@
         <div>Thank you,<br>IT Support</div>
         
         <div class="line"></div>
-        <a href="https://compucom.com">Chat</a>
+        <div class="help">Need aditional help?</div>
+        <div class="center-it">
+            <div class="inline">
+                <div class="chat-icon"></div>
+                <div class="chat">Chat</div>
+            </div>
+            <div class="inline">
+                <div class="callin-icon"></div>
+                <div class="callin">Call Me</div>
+            </div>
+            <div class="inline">
+                <div class="callout-icon"></div>
+                <div class="callout">Call Us</div>
+            </div>
+        </div>
         <!--
         <div class="need-help">Need Help?</div>
         <a href="https://compucom.com">Click here</a> for more 

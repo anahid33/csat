@@ -114,12 +114,13 @@
     
     .ticketno {
         font-family: 'Nunito Sans';
-        font-weight: 600; 
+        font-weight: 700; 
     }
     
     .description {
         font-family: 'Nunito Sans';
-        font-weight: 600; 
+        font-weight: 500;
+        font-size: 15px;
     }
     
     .name {
@@ -129,17 +130,14 @@
         margin-bottom: 8px;
     }
     .people {
-        width: 55px;
-        height: 55px;
+        width: 60px;
+        height: 60px;
         display: inline-block;
         content: "c";
         color: transparent;
-        background-image: url("https://anahid33.github.io/csat/assets/people.png");
+        background-image: url("https://anahid33.github.io/csat/assets/people@3x.png");
         background-repeat: no-repeat;
-        background-size: 55px;
-    }
-    .center-it {
-        margin: 0 20px;
+        background-size: 60px;
     }
     .help {
         font-family: 'Nunito Sans';
@@ -149,6 +147,10 @@
     }
     .help2 {
         font-size: 15px;
+    }
+    .inline {
+        display: inline-block;
+        height: 60px;
     }
     
 </style>
@@ -167,8 +169,8 @@
         <div class="rating sad"> Not so great</div><br><br>
         
         <div>
-            Issue No. <span class="ticketno">0092910014</span><br>
-            <div class="description">Account unlock</div>
+            Your issue number: <span class="ticketno">0092910014</span><br>
+            <div class="description">Self Service Password Reset Request - Password Reset</div>
             <a href="https://compucom.com">See more issue details</a>
         </div>
         <br>
@@ -176,7 +178,7 @@
         
         <div class="line"></div>
         <div class="people"></div>
-        <div>
+        <div class="inline">
             <div class="help">Need more assistance?</div>
             <a href="https://compucom.com" class="help2">Click here for help</a>
         </div>

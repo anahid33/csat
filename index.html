@@ -130,14 +130,14 @@
         margin-bottom: 8px;
     }
     .people {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         display: inline-block;
         content: "c";
         color: transparent;
         background-image: url("https://anahid33.github.io/csat/assets/people@3x.png");
         background-repeat: no-repeat;
-        background-size: 60px;
+        background-size: 50px;
     }
     .help {
         font-family: 'Nunito Sans';
@@ -148,9 +148,11 @@
     .help2 {
         font-size: 15px;
     }
-    .inline {
+    .help-text {
         display: inline-block;
         height: 60px;
+        margin-left: 15px;
+        padding-top: 17px;
     }
     
 </style>
@@ -177,11 +179,14 @@
         <div>Thank you,<br>IT Support</div>
         
         <div class="line"></div>
-        <div class="people"></div>
-        <div class="inline">
+        <table>
+            <tr>
+            <td><div class="people"></div></td>
+            <td><div class="help-text">
             <div class="help">Need more assistance?</div>
-            <a href="https://compucom.com" class="help2">Click here for help</a>
-        </div>
+            <a href="https://compucom.com" class="help2">Click here for help</a></div></td>
+            </tr>
+        </table>
         <!--
         <div class="need-help">Need Help?</div>
         <a href="https://compucom.com">Click here</a> for more 

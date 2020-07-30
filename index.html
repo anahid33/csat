@@ -1,12 +1,15 @@
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <style>
     html {
         background-color: #EDEDED;
     }
 
     body {
-        font-family: 'Nunito Sans';font-size: 16px; font-weight: 500;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
         line-height: 1.5;
         color: #1D222A;
     }
@@ -20,7 +23,6 @@
     }
 
     .question {
-        font-family: 'Nunito Sans';
         font-size: 17px;
         font-weight: 700;
         margin-top: 20px;
@@ -50,6 +52,20 @@
         text-align: center;
         padding: 10px 0;
         display: inline-block;
+    }
+    .rating2 {
+        width: 232px;
+        height: 26px;
+        border-width: .75px;
+        border-style: solid;
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px 0;
+        display: inline-block;
+        color: white;
+        background: rgb(129,191,255);
+        background: linear-gradient(180deg, rgba(129,191,255,1) 0%, rgba(52,151,255,1) 100%);
+        margin-bottom: 25px;
     }
 
     .sad {
@@ -86,7 +102,6 @@
     }
 
     .need-help {
-        font-family: 'Nunito Sans';
         font-size: 16px;
         font-weight: 800;
         color: #646971;
@@ -94,7 +109,6 @@
     }
 
     a {
-        font-family: 'Nunito Sans';
         font-weight: 500;
         color: #3B99FD;
         font-size: 16px;
@@ -105,7 +119,6 @@
     }
 
     .connect {
-        font-family: 'Nunito Sans';
         font-weight: 900;
         color: #F04B48;
         text-align: center;
@@ -113,18 +126,15 @@
     }
     
     .ticketno {
-        font-family: 'Nunito Sans';
-        font-weight: 700; 
+        font-weight: 600; 
     }
     
     .description {
-        font-family: 'Nunito Sans';
         font-weight: 500;
         font-size: 15px;
     }
     
     .name {
-        font-family: 'Nunito Sans';
         font-weight: 700; 
         font-size: 20px;
         margin-bottom: 8px;
@@ -140,7 +150,6 @@
         background-size: 50px;
     }
     .help {
-        font-family: 'Nunito Sans';
         font-size: 15px;
         font-weight: 600;
         
@@ -165,10 +174,16 @@
         <div class="name">Hi Peter,</div>
         <div>Your issue has been resolved. We hope it was resolved to your satisfaction. Please let us know if we can be of more assistance.</div>
         
-        <div class="question">How was the service?</div>
         
+        <div class="question">How was the service?</div>
+        <!--
         <div class="rating happy"> It was great</div>
         <div class="rating sad"> Not so great</div><br><br>
+        -->
+        
+        <div class ="rating2">
+            Rate your experience 
+        </div>
         
         <div>
             Your issue number: <span class="ticketno">0092910014</span><br>

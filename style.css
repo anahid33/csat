@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: 'Nunito Sans';font-size: 16px;
+    font-family: 'Nunito Sans';font-size: 16px; font-weight: 500;
     max-width: 420px;
     line-height: 1.7;
     margin: auto;   
@@ -75,13 +75,16 @@ h1 {
 }
 
 .need-help {
-    font-style: bold;
+    font-family: 'Nunito Sans';
     font-size: 16px;
+    font-weight: 800;
     color: #646971;
     margin: 0;
 }
 
 a {
+    font-family: 'Nunito Sans';
+    font-weight: 700;
     color: #3B99FD;
     font-style: bold;
     font-size: 16px;

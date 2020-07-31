@@ -41,6 +41,18 @@
         margin: auto;
         margin-bottom: 30px;
     }
+
+    .rating {
+        width: 150px;
+        height: 26px;
+        border-color: #8D8F93;
+        border-width: .75px;
+        border-style: solid;
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px 0;
+        display: inline-block;
+    }
     .rating2 {
         width: 232px;
         height: 26px;
@@ -54,6 +66,32 @@
         background: rgb(129,191,255);
         background: linear-gradient(180deg, rgba(129,191,255,1) 0%, rgba(52,151,255,1) 100%);
         margin-bottom: 25px;
+    }
+
+    .sad {
+        margin-left: 7px;
+    }
+
+    .happy::before {
+        display: inline-block;
+        content: "b";
+        color: transparent;
+        background-image: url("https://anahid33.github.io/csat/assets/happy.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 20px;
+        width: 26px;
+    }
+
+    .sad::before {
+        display: inline-block;
+        content: "b";
+        color: transparent;
+        background-image: url("https://anahid33.github.io/csat/assets/sad.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 20px;
+        width: 26px;
     }
 
     .line {
@@ -136,9 +174,16 @@
         <div class="name">Hi Peter,</div>
         <div>Your issue has been resolved. We hope it was resolved to your satisfaction. Please let us know if we can be of more assistance.</div>
         
-        <div class="question">How was the service?</div>
         
-        <div class ="rating2">Rate your experience</div>
+        <div class="question">How was the service?</div>
+        <!--
+        <div class="rating happy"> It was great</div>
+        <div class="rating sad"> Not so great</div><br><br>
+        -->
+        
+        <div class ="rating2">
+            Rate your experience 
+        </div>
         
         <div>
             Your issue number: <span class="ticketno">0092910014</span><br>
@@ -149,7 +194,6 @@
         <div>Thank you,<br>IT Support</div>
         
         <div class="line"></div>
-        
         <table>
             <tr>
             <td><div class="people"></div></td>
@@ -158,6 +202,10 @@
             <a href="https://compucom.com" class="help2">Click here for help</a></div></td>
             </tr>
         </table>
+        <!--
+        <div class="need-help">Need Help?</div>
+        <a href="https://compucom.com">Click here</a> for more 
+        -->
     </div>
     <div class="connect">Connect</div>
 </body>
